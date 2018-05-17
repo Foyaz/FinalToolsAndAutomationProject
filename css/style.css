@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    text-decoration: aliceblue;
+}
+
+h1 {
+    font-size: 2em;
+    font-style: italic;
+    font-variant: small-caps;
+    color:rgb(44, 47, 204);
+}
+h2{
+    font-variant: initial;
+    color: rgb(15, 85, 85);
+    font-synthesis: style;
+    font-variant-caps: all-petite-caps;
+    font-variant-position: sub;
+}
+h3{
+    font-size: 0.87em;
+}
+
