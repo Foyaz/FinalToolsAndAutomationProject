@@ -12,11 +12,11 @@ gulp.task('css', () =>
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
-        .pipe(gulp.dest('./dist/css/'))
+        .pipe(gulp.dest('dist'))
 );
 
 gulp.task('images', function () {
     gulp.src('./src/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./dist/images'))
+        .pipe(gulp.dest('dist'))
 });
